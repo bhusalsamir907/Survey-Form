@@ -1,0 +1,122 @@
+*{
+    font-family: "Comic Sans Ms";
+    color: white;
+   
+}
+
+.container{
+    background-image: linear-gradient( 50deg, rgba(76, 76, 170, 0.8), rgba(174, 226, 154, 0.7) ), url('survey.jpeg');
+}
+
+
+.heading{
+    text-align: center;
+    padding-top: 15px;
+    color:white;
+    /* font-size: 30px; */
+}
+
+#survey-form{
+    background-color:rgb(52, 50, 102);
+    /* width: auto; */
+    margin: 0 25% 0 25%;
+    border-radius: 15px;
+    padding: 35px;
+    font-size: larger;
+}
+
+.info-labels{
+    padding: 25px 0 7px 0 ;
+}
+
+.form-input{
+    border-radius: 5px;
+    width: 95%;
+    padding: 10px;
+
+}
+
+.form-div{
+    /* align-items: center;  */
+    /* text-align: center; */
+    /* width: auto; */
+    /* padding:10%; */
+    
+}
+
+label{
+    display: flex;
+  
+}
+
+input{
+    display: flex;
+ 
+}
+
+p{
+    /* padding-top: 10px ; */
+    margin-bottom: 10px;
+
+}
+
+/* Which option best describes your current role */
+#dropdown{
+    color:black;
+}
+
+#dropdown option{
+    color: black;
+}
+
+/* Would you recommend freeCodeCamp to a friend? */
+.input-radio{
+    display: flex;
+    /* float: left; */
+    
+    /* float: left; */
+    /* justify-content: center;
+    margin: 0 auto;  */
+} 
+
+/* What is your favorite feature of freeCodeCamp? */
+#fav-feature{
+    color: black;
+}
+
+#fav-feature option{
+    color: black;
+
+}
+
+
+/* What would you like to see improved? (Check all that apply) */
+.input-checkbox{
+    /* margin: 4px; */
+    /* padding: 5px; */
+    min-height: 20px;
+    min-width: 20px;
+    padding-top: 15px;
+}
+
+label {
+    padding: 5px;
+}
+
+
+
+/* Any comments or suggestions? */
+.input-textarea{
+    height: 100px;
+    width: 95%;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#submit{
+background-color: rgb(55,175,101);
+width: 100%;
+padding: 13px;
+font-size: 15px;
+border-radius: 5px;
+}
